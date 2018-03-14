@@ -129,8 +129,8 @@ def process_query(query):
         response.status_code = 200
         return response
     else:
-        query = json.loads(query)
-        print(query)
+        # query = json.loads(query)
+        # print(query)
         query_result = get_db().get_query(query)
         data={
             'results':query_result
