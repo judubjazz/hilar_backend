@@ -23,7 +23,7 @@ from flask import Response
 from flask import jsonify
 from flask import make_response
 from flask import abort
-from backend.database import Database
+from database import Database
 import hashlib
 import uuid
 import json
